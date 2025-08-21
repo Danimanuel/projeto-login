@@ -1,8 +1,58 @@
 @charset "UTF-8";
 
 /*Paketa de cores
-  dourado  #E1B201 first color
+  dourado  #fE1B201 irst color
     #B6951E second color
     #615630 third color
     #D1882E fourth color 
 */
+
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #B6951E;
+    height: 90%;
+    width:100% ;
+}
+
+main{
+    position: relative;
+    height: 60%;
+    width: 90%;
+}
+
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #E1B201 ;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+   transform: translate(-41%, -20%);
+   overflow: hidden;
+
+   transition: width .3s, height .3s;
+   transition-timing-function: ease-in;
+}
+
+section > div#image{
+    display: block;
+    background:#615630 url(../imagens/natureza1.jpg) ;
+    height: 220px;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: 0px 0px 0px #D1882E;
+
+} 
+
+section > div#form{
+    display: block;
+    padding: 2px;
+}
