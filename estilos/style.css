@@ -56,3 +56,12 @@ section > div#form{
     display: block;
     padding: 2px;
 }
+
+div#form > h1 {
+    text-align: center;
+    padding: 5px;
+}
+
+div#form > p{
+    font-size: .9em;
+}
