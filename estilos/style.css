@@ -33,7 +33,7 @@ section#login{
     left: 50%;
     background-color: #E1B201 ;
     width: 250px;
-    height: 500px;
+    height: 515px;
     border-radius: 20px;
    transform: translate(-41%, -20%);
    overflow: hidden;
@@ -64,4 +64,78 @@ div#form > h1 {
 
 div#form > p{
     font-size: .9em;
+}
+
+form > div.campo {
+    margin: 5px 0px;
+    background-color: #915d1e;
+    height: 40px;
+    border-radius: 5px;
+}
+
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #d1882ed7;
+    color: white;
+    border: 0px solid rgba(0, 0, 0, 0.372);
+    border-radius:5px ;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+div.campo input{
+   font-size: 1em;
+   width: calc(100%) -48px;
+   height: 100% ;
+}
+
+form > input[type=submit]:hover{
+    background-color: #915d1e;
+    font-size: 1em;
+   
+    height: 100%;
+}
+form > a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color:#ffffffd7 ;
+    border: 1px solid #764f1e ;
+    text-decoration: none;
+    color: #764f1e;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 2px;
+    
+}
+
+form > input[type=password]{
+    font-size: 20px;
+}
+
+label.indicador{
+    display: inline-block;
+    position:relative;
+    color: white;
+    font-size: 1.1em;
+    padding: 3px;
+    font-weight: bold;
+        
+}
+
+form > a.botao:hover{
+    background-color: #e2830fd7;
+}
+#duro{
+    text-indent: 3px;
+}
+
+div.campo > input:focus-within{
+    background-color: #615630;
 }
